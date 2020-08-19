@@ -17,7 +17,7 @@ gpt2.generate(sess,
               nsamples=1,
               batch_size=1,
               length=100,
-              prefix=f"~^wizard",
+              prefix=f"~^wizard",   #Put keywords with space eg: wizard harry magic
               truncate="",
               include_prefix=False
               )
